@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00C4EE141EB4CD88007CD237 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C4EE131EB4CD88007CD237 /* ProfileController.swift */; };
+		00C4EE161EB4DEAC007CD237 /* StationResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C4EE151EB4DEAC007CD237 /* StationResources.swift */; };
+		00C4EE181EB4E421007CD237 /* StationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C4EE171EB4E421007CD237 /* StationViewController.swift */; };
 		00DD927C1EB4549400C7C0AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DD927B1EB4549400C7C0AC /* AppDelegate.swift */; };
-		00DD927E1EB4549400C7C0AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DD927D1EB4549400C7C0AC /* ViewController.swift */; };
+		00DD927E1EB4549400C7C0AC /* CallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DD927D1EB4549400C7C0AC /* CallController.swift */; };
 		00DD92811EB4549400C7C0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DD927F1EB4549400C7C0AC /* Main.storyboard */; };
 		00DD92831EB4549400C7C0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DD92821EB4549400C7C0AC /* Assets.xcassets */; };
 		00DD92861EB4549400C7C0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DD92841EB4549400C7C0AC /* LaunchScreen.storyboard */; };
+		A71B258D7E96853E40B7B343 /* Pods_Polaris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3B44FBFEE15AD887565397 /* Pods_Polaris.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00C4EE131EB4CD88007CD237 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		00C4EE151EB4DEAC007CD237 /* StationResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationResources.swift; sourceTree = "<group>"; };
+		00C4EE171EB4E421007CD237 /* StationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationViewController.swift; sourceTree = "<group>"; };
 		00DD92781EB4549400C7C0AC /* Polaris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polaris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DD927B1EB4549400C7C0AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00DD927D1EB4549400C7C0AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00DD927D1EB4549400C7C0AC /* CallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallController.swift; sourceTree = "<group>"; };
 		00DD92801EB4549400C7C0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00DD92821EB4549400C7C0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00DD92851EB4549400C7C0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00DD92871EB4549400C7C0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611BC97822BD887E701C801E /* Pods-Polaris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polaris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Polaris/Pods-Polaris.debug.xcconfig"; sourceTree = "<group>"; };
+		EA3B44FBFEE15AD887565397 /* Pods_Polaris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polaris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC4314FC926F5C274303D19 /* Pods-Polaris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polaris.release.xcconfig"; path = "Pods/Target Support Files/Pods-Polaris/Pods-Polaris.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71B258D7E96853E40B7B343 /* Pods_Polaris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				00DD927A1EB4549400C7C0AC /* Polaris */,
 				00DD92791EB4549400C7C0AC /* Products */,
+				6EECF633AF5591B7D28F655B /* Pods */,
+				DE4699BBD9406CAE8CC139AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,33 @@
 			isa = PBXGroup;
 			children = (
 				00DD927B1EB4549400C7C0AC /* AppDelegate.swift */,
-				00DD927D1EB4549400C7C0AC /* ViewController.swift */,
+				00DD927D1EB4549400C7C0AC /* CallController.swift */,
+				00C4EE131EB4CD88007CD237 /* ProfileController.swift */,
 				00DD927F1EB4549400C7C0AC /* Main.storyboard */,
 				00DD92821EB4549400C7C0AC /* Assets.xcassets */,
 				00DD92841EB4549400C7C0AC /* LaunchScreen.storyboard */,
 				00DD92871EB4549400C7C0AC /* Info.plist */,
+				00C4EE151EB4DEAC007CD237 /* StationResources.swift */,
+				00C4EE171EB4E421007CD237 /* StationViewController.swift */,
 			);
 			path = Polaris;
+			sourceTree = "<group>";
+		};
+		6EECF633AF5591B7D28F655B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				611BC97822BD887E701C801E /* Pods-Polaris.debug.xcconfig */,
+				EDC4314FC926F5C274303D19 /* Pods-Polaris.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE4699BBD9406CAE8CC139AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B44FBFEE15AD887565397 /* Pods_Polaris.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00DD928A1EB4549400C7C0AC /* Build configuration list for PBXNativeTarget "Polaris" */;
 			buildPhases = (
+				4715471F0E61F67BA5956816 /* [CP] Check Pods Manifest.lock */,
 				00DD92741EB4549400C7C0AC /* Sources */,
 				00DD92751EB4549400C7C0AC /* Frameworks */,
 				00DD92761EB4549400C7C0AC /* Resources */,
+				D80DF280E80E4D5DF16FB883 /* [CP] Embed Pods Frameworks */,
+				A8C9403C6722FDC416BCCEDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +168,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4715471F0E61F67BA5956816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C9403C6722FDC416BCCEDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Polaris/Pods-Polaris-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D80DF280E80E4D5DF16FB883 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Polaris/Pods-Polaris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00DD92741EB4549400C7C0AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00DD927E1EB4549400C7C0AC /* ViewController.swift in Sources */,
+				00DD927E1EB4549400C7C0AC /* CallController.swift in Sources */,
 				00DD927C1EB4549400C7C0AC /* AppDelegate.swift in Sources */,
+				00C4EE161EB4DEAC007CD237 /* StationResources.swift in Sources */,
+				00C4EE141EB4CD88007CD237 /* ProfileController.swift in Sources */,
+				00C4EE181EB4E421007CD237 /* StationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +346,34 @@
 		};
 		00DD928B1EB4549400C7C0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 611BC97822BD887E701C801E /* Pods-Polaris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TSN52PT9J2;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = Polaris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PolarisDevelopers.Polaris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		00DD928C1EB4549400C7C0AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC4314FC926F5C274303D19 /* Pods-Polaris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TSN52PT9J2;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = Polaris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PolarisDevelopers.Polaris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +397,7 @@
 				00DD928C1EB4549400C7C0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
